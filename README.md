@@ -50,7 +50,7 @@ Codex opens the sign-in when you add the server. If it doesn't, run `codex mcp l
 ```sh
 openclaw mcp set launchranked '{"url":"https://launchranked.com/mcp","transport":"streamable-http","auth":"oauth"}'
 openclaw mcp login launchranked
-npx skills add AI-XLabs-Innovation/launchranked-agent -a openclaw -g
+openclaw skills install @piyushgit011/launchranked-seo --global
 ```
 
 ### Other agents
