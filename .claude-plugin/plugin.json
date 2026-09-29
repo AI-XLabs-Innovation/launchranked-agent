@@ -1,0 +1,25 @@
+{
+  "name": "launchranked",
+  "version": "0.1.4",
+  "description": "SEO and AI search for your codebase: your agent audits the live site with LaunchRanked, fixes the cause in code, and re-checks after deploy. Also reads your Autopilot sites' AI-visibility results, and plans launches and directory submissions.",
+  "author": {
+    "name": "LaunchRanked",
+    "email": "hello@launchranked.com",
+    "url": "https://launchranked.com"
+  },
+  "homepage": "https://launchranked.com",
+  "repository": "https://github.com/AI-XLabs-Innovation/launchranked-agent",
+  "keywords": [
+    "seo",
+    "geo",
+    "ai-search",
+    "llms-txt",
+    "sitemap",
+    "structured-data",
+    "pagespeed",
+    "backlinks",
+    "directories",
+    "mcp"
+  ],
+  "license": "MIT"
+}

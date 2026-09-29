@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "launchranked": {
+      "type": "http",
+      "url": "https://launchranked.com/mcp"
+    }
+  }
+}

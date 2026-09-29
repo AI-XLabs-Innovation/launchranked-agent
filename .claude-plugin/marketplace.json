@@ -1,0 +1,15 @@
+{
+  "name": "launchranked",
+  "description": "LaunchRanked's plugin for Claude Code: SEO and AI search for your codebase.",
+  "owner": {
+    "name": "LaunchRanked",
+    "email": "hello@launchranked.com"
+  },
+  "plugins": [
+    {
+      "name": "launchranked",
+      "description": "SEO and AI search for your codebase: your agent audits the live site with LaunchRanked, fixes the cause in code, and re-checks after deploy. Also reads your Autopilot sites' AI-visibility results, and plans launches and directory submissions.",
+      "source": "./"
+    }
+  ]
+}
