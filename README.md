@@ -15,7 +15,7 @@ This repo is a Claude Code plugin (`.claude-plugin/`) and an [Agent Plugins](htt
 - `check_page_speed`, `check_structured_data`, `check_sitemap`, `check_llms_txt`, `check_links`
 - `domain_rating`: Domain Rating by Ahrefs for up to 25 domains
 - `find_directories`: startup directories ranked by fit for your product, with link type and pricing
-- With an Autopilot site: `get_account`, `ai_visibility_report`
+- With an Autopilot site: `get_account`, `search_console_report`, `ai_visibility_report`
 
 ## Install
 

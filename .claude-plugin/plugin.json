@@ -1,6 +1,6 @@
 {
   "name": "launchranked",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "SEO and AI search for your codebase: your agent audits the live site with LaunchRanked, fixes the cause in code, and re-checks after deploy. Also reads your Autopilot sites' AI-visibility results, and plans launches and directory submissions.",
   "author": {
     "name": "LaunchRanked",

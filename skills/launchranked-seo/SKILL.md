@@ -23,6 +23,7 @@ These come from the LaunchRanked MCP server. Their full names depend on the clie
 | `domain_rating` | Domain Rating by Ahrefs for up to 25 domains (competitors, backlink targets). Not available in ChatGPT. Keep the "Domain Rating by Ahrefs" credit next to DR values you show. |
 | `find_directories` | Startup directories ranked by fit for the product, with link type and pricing. |
 | `get_account` | Plan and the user's Autopilot sites (the site tools take the site's domain). Needs sign-in. |
+| `search_console_report` | For an Autopilot site with Search Console connected: 28-day clicks, impressions, CTR and position, 12 weeks of trend, top queries and pages, and new titles and descriptions for pages that rank but get few clicks. Needs sign-in. |
 | `ai_visibility_report` | For an Autopilot site: how often ChatGPT, Perplexity, Gemini and Claude mention or cite it, and the questions where it's missing. Needs sign-in. |
 
 All checks fetch public URLs. They can't see `localhost` or unpushed changes: verify local work with a build and the rendered HTML, then re-run the tool after deploy.
@@ -43,7 +44,7 @@ If the tools aren't available, tell the user how to connect them (see "Setup" at
    6. Core Web Vitals, if `check_page_speed` rates them poor.
    7. Everything else.
 5. **Fix at the source.** Change the layout, template, metadata function or config that generates the tag, so every page of that type is fixed. Don't hardcode one page. Match the repo's existing patterns and libraries.
-6. **Use the user's own data when they have it.** If `get_account` lists Autopilot sites, `ai_visibility_report` shows which buyer questions AI engines answer without naming the site, and the competitors they name instead; those are content gaps.
+6. **Use the user's own data when they have it.** If `get_account` lists Autopilot sites, `search_console_report` shows the real queries, the trend and the pages that rank but get few clicks (with suggested titles and descriptions to fix in the code), and `ai_visibility_report` shows which buyer questions AI engines answer without naming the site, and the competitors they name instead; those are content gaps.
 7. **Verify.** Before deploy: build, then read the rendered HTML (for example `curl -s localhost:3000/pricing | grep -iE '<title|name="description"|rel="canonical"|ld\+json'`). After the user deploys: re-run the same tool on the same URL and compare scores.
 8. **Report.** Scores before and after, what you changed (files), and anything left for the user to decide.
 
